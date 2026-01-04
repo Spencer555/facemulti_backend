@@ -1,0 +1,50 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django development server
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files
+/staticfiles/
+/static/
+
+# Media files
+/media/
+
+# Virtual environment
+Envs/
+venv/
+.env
+
+# IDE-specific files (e.g., PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Ignore sensitive or personal information
+secret_key.txt
+
+# Ignore local settings (modify this based on your local settings file name)
+local_settings.py
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore generated migrations (only if you are using migrations with manage.py)
+**/migrations/
